@@ -1,0 +1,36 @@
+scene_name = Test1
+camera_origin = (100.0, 0.0, 0.0)
+
+object_1
+{
+	type = sphere
+	origin = (0.0, 10.0, 0.0)
+	radius = 10.0
+	color = 0xFF0000
+}
+
+object_2
+{
+	type = plan
+	origin = (10.0, -10.0, 0.0)
+	rotation = (10.0, 0.0)
+	color = 0x00FFFF
+}
+
+object_3
+{
+	type = cylinder
+	origin = (0.0, 0.0, 0.0)
+	rotation = (10.0, 0.0)
+	height = 10
+	color = 0xFF00FF
+}
+
+object_4
+{
+	type = cone
+	origin = (20.0, 10.0, 30.0)
+	rotation = (10.0, 0.0)
+	height = 20
+	color = 0xFFFF00
+}
