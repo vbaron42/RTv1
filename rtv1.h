@@ -6,7 +6,7 @@
 /*   By: vbaron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/24 19:55:49 by vbaron            #+#    #+#             */
-/*   Updated: 2017/01/25 06:22:42 by vbaron           ###   ########.fr       */
+/*   Updated: 2017/02/15 17:18:44 by vbaron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,11 @@ typedef struct		s_coo
 
 typedef struct		s_object
 {
-	char			type;
+	int				type;
 	t_coo			pos;
 	t_coo			rot;
 	int				r;
-	int				l;
+	int				h;
 	int				color;
 	void			*next;
 }					t_object;

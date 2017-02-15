@@ -6,7 +6,7 @@
 /*   By: vbaron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/24 19:52:06 by vbaron            #+#    #+#             */
-/*   Updated: 2017/01/24 19:52:34 by vbaron           ###   ########.fr       */
+/*   Updated: 2017/02/08 19:06:51 by vbaron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,8 @@ void		draw_img(t_env *env)
 
 void		string_display(t_env *env)
 {
-	mlx_string_put(env->mlx, env->win, 48, 22, 0x0, "RTv1");
-	mlx_string_put(env->mlx, env->win, 50, 20, 0xFF6FFF, "RTv1");
+	mlx_string_put(env->mlx, env->win, 48, 22, 0x0, env->name);
+	mlx_string_put(env->mlx, env->win, 50, 20, 0xFF6FFF, env->name);
 }
 
 t_img		*new_img(t_env *env)

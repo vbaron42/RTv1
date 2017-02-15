@@ -12,7 +12,7 @@ object_1
 object_2
 {
 	type = plan
-	origin = (10.0, -10.0, 0.0)
+	origin = (10.0, 10.0, 0.0)
 	rotation = (10.0, 0.0, 0.0)
 	color = 0x00FFFF
 }
@@ -25,14 +25,4 @@ object_3
 	radius = 5.0
 	height = 10.0
 	color = 0xFF00FF
-}
-
-object_4
-{
-	type = cone
-	origin = (20.0, 10.0, 30.0)
-	rotation = (10.0, 0.0, 0.0)
-	radius = 10.0
-	height = 20.0
-	color = 0xFFFF00
 }
