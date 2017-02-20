@@ -6,12 +6,12 @@
 /*   By: vbaron <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/01/24 20:07:31 by vbaron            #+#    #+#             */
-/*   Updated: 2017/02/15 17:39:03 by vbaron           ###   ########.fr       */
+/*   Updated: 2017/02/20 21:54:05 by vbaron           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "rtv1.h"
-
+/*
 int				get_next_line_safe(int fd, char **line)
 {
 	int			err;
@@ -130,7 +130,7 @@ t_object		*ft_lstadd_obj(int fd, char *line, t_object *allobj)
 	tmp->next = obj;
 	return (obj);
 }
-
+*/
 t_object		*get_scene(char *file, t_env *env)
 {
 	int			fd;

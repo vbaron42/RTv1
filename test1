@@ -1,5 +1,5 @@
 scene_name = Test1
-camera_origin = (100.0, 5.0, 10.0)
+camera_origin = (100.0, 5.0, 10.0)//camera_fov = (0.35, 0.5, 1.0)
 
 object_1
 {

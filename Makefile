@@ -6,14 +6,14 @@
 #    By: vbaron <marvin@42.fr>                      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/01/24 19:52:58 by vbaron            #+#    #+#              #
-#    Updated: 2017/01/24 22:52:40 by vbaron           ###   ########.fr        #
+#    Updated: 2017/02/20 21:54:50 by vbaron           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	=	rtv1
 FLAGS	=	-lmlx -framework OpenGL -framework AppKit
 CC		=	gcc
-SRC		=	main.c img.c event.c
+SRC		=	main.c tools.c read.c img.c event.c
 OBJ		=	$(SRC:.c=.o)
 
 all:		$(NAME)
